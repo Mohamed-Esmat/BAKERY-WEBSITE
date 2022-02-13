@@ -1,0 +1,393 @@
+/* .back_ground
+    {
+    
+    background-image: url(../img/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 750px;
+}
+.welcome{
+    text-align: center;
+    color: white;
+}
+.sora img{
+    width: 150px;
+}
+.nav{
+    text-align: right;
+}
+.nav ul li{
+    display: inline-block;
+    color: white;
+    
+}.sec1{
+    display: inline-block;
+}
+.sec2{
+    display: inline-block;
+} */
+*{
+  padding: 0;
+}
+body {
+  margin: 0;
+}
+.parent {
+  background-image: url(../img/drew-coffman-1872.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+.navbar {
+  width: 80%;
+  margin: auto;
+  padding-top: 30px;
+}
+.td {
+  padding-left: 350px;
+}
+.sora img {
+  height: 48px;
+  padding-left: 80px;
+}
+.nav {
+  text-align: right;
+}
+.nav a
+{
+  text-decoration: none;
+}
+.nav ul {
+  display: inline-block;
+}
+.nav ul li {
+  display: inline-block;
+  color: white;
+  padding: 0px 20px;
+  font-size: 18px;
+}
+.text {
+  width: 40%;
+  text-align: center;
+  margin: 150px auto;
+  margin-bottom: 80px;
+  color: #fff;
+  font-size: 22px;
+  font-family: Alegreya Sans;
+  font-weight: 500;
+}
+
+.text h3 {
+  font-size: 76px;
+  font-family: Alegreya;
+  font-weight: 400;
+  margin: 0px;
+}
+
+.text button {
+  padding: 15px 30px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.text .btn1 {
+  background-color: #8e7754;
+  border: #8e7754 3px solid;
+}
+.text .btn2 {
+  background-color: transparent;
+  border: white 3px solid;
+}
+.scroll {
+  height: 50px;
+  width: 30px;
+  background-color: transparent;
+  margin: auto;
+  border-radius: 20px;
+  border: white solid 2px;
+}
+.dot {
+  height: 7px;
+  width: 7px;
+  background-color: blanchedalmond;
+  border-radius: 50%;
+  margin: 21.5px auto;
+}
+.parent2 {
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.parent2 .sora2 {
+  width: 40%;
+  float: left;
+}
+.sora2 img {
+  width: 600px;
+}
+.txt {
+  width: 40%;
+  float: left;
+  margin-left: 200px;
+}
+.txt h3,
+.parent3 .txt3 h3,
+.parent4 .Baking h3,
+.parent5 .txt5 h3 {
+  font-family: "Alegreya";
+  font-size: 32px;
+  color: #303030;
+  font-weight: 400;
+}
+.txt p,
+.parent3 .txt3 p,
+.parent4 p,
+.parent5 .txt5 p,
+.txt6 p
+{
+  font-family: "Alegreya Sans";
+  font-size: 17px;
+  font-weight: 400;
+  color: #686868;
+}
+.txt ul 
+{
+  padding-left: 0px;
+}
+.txt ul li,
+.txt3 ul li,
+.txt5 ul li,
+.txt6 ul li
+ {
+  list-style-type: none;
+}
+.clr {
+  clear: both;
+}
+.con {
+  background-color: #f8f8f8;
+}
+.parent3 {
+  width: 80%;
+  margin: auto;
+}
+.parent3 .txt3 {
+  width: 40%;
+  float: left;
+  margin-right: 50px;
+  padding-top: 120px;
+  padding-right: 20px;
+}
+.parent3 .sora3 {
+  width: 40%;
+  float: left;
+}
+.parent3 .sora3 img {
+  width: 600px;
+  padding: 90px 0px;
+}
+.parent4 {
+  width: 80%;
+  margin: 70px auto;
+  padding-left: 80px;
+}
+.Baking {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+.cookies {
+  margin: 40px 0px 40px 0px;
+}
+.cookies1 {
+  width: 30%;
+  text-align: center;
+  float: left;
+  margin: 30px 20px 10px 0px;
+}
+.cookies1 img {
+  width: 100%;
+}
+.parent4 .cookies1 h3 {
+  font-size: 22px;
+  margin: 25px 0px;
+  font-weight: 400;
+  font-family: "Alegreya";
+  color: #303030;
+}
+/* .parent3 .sora3 iframe
+{
+    width: 500px;
+    height: 500px;
+    padding: 90px 0px;
+}
+.com
+{
+    background-color: #686868;
+}
+.parent3  
+{
+background-color: rgb(109, 192, 192);
+} */
+.com {
+  background-color: #f8f8f8;
+  overflow: auto;
+}
+.parent5 {
+  width: 80%;
+  margin: 70px auto;
+}
+.txt5 {
+  width: 40%;
+  float: left;
+  margin-top: 40px;
+}
+.sora5 {
+  float: left;
+  margin-top: 50px;
+  margin-left: 100px;
+  background-color: #686868e1;
+}
+.sora5 iframe {
+  opacity: .7;
+}
+.parent5 .txt5 .marg {
+  margin: 30px 0px;
+}
+.parent5 .txt5 ul li {
+  margin: 25px 0px;
+}
+.parent6
+{
+    width: 80%;
+    margin: auto;
+    padding: 60px 0px;
+}
+.txt6
+{
+    background-color: #403d38;
+    width: 25%;
+    float: left;
+}
+.txt6 h4
+{
+    font-size: 18px;
+    color: #fff;
+    font-family: Alegreya;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+.txt6 .pp
+{
+    margin: 40px 0px;
+    padding-right: 30px;
+}
+.txt6 ul
+{
+    padding-left: 0px;
+    font-family: "Alegreya Sans";
+    font-size: 17px;
+    font-weight: 400;
+    color: #686868;
+}
+.txt6 ul li
+{
+    margin: 10px 0px;
+    display: inline-block;
+}
+.x{
+    background-color: #403d38;
+}
+.sahm
+{
+    width: 10px;
+    height: 10px;
+    background-color:#686868 ;
+   
+    border-top-right-radius:50% ;
+    border-bottom-right-radius:50% ;
+    display: inline-block;
+
+}
+.cont
+{
+    background-color: #353330;
+    overflow: auto;
+}
+.last
+{
+    background-color: #353330;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.last img{
+    color: white;
+}
+.hamada
+{
+    margin-left: 100px;
+}
+.last p
+{
+font-family: "Alegreya Sans";
+font-size: 17px;
+font-weight: 400;
+color: #686868;
+}
+.hr
+{
+  background-color:#686868 ;
+  width: 250px;
+  height: 0.5px;
+  margin: 8px 0;
+}
+.bag_grandpa
+{
+  position: relative;
+}
+.position
+{
+  background-color: #fff;
+  width: 42px;
+  height: 95px;
+  position: fixed;
+  top: 200px;
+  right: 0;
+  border-radius: 4px 0 0 4px;
+  box-shadow: 0 0 10px 0px rgb(0 0 0 / 15%);
+
+}
+.position ul li
+{
+  list-style-type: none;
+}
+
+.center
+{
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+.position .center .padd
+{
+padding: 10px 0;
+}
+.position2
+{
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  border-radius: 50%;
+  bottom: 1.5%;
+  right: 1%;
+}
+.position2 img
+{
+  width: 100%;
+}
